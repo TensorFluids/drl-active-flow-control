@@ -28,3 +28,7 @@ preCICE-*/
 dynamicCode/
 
 # Do not ignore processor*/ or postProcessing/: the bundled restart needs them.
+
+# Agent-facing instructions (machine-specific, not for the public repo)
+AGENTS.md
+ROADMAP.md
