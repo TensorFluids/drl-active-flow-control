@@ -1,0 +1,30 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs and experiment tracking
+*.log
+log.*
+logs/
+wandb/
+
+# Model checkpoints and generated datasets
+*checkpoint*
+*.pt
+*.pth
+*.h5
+*.npz
+*.npy
+
+# Generated Gym-preCICE and OpenFOAM output
+gymprecice-run/
+precice-run/
+preCICE-output/
+preCICE-*/
+dynamicCode/
+
+# Do not ignore processor*/ or postProcessing/: the bundled restart needs them.
